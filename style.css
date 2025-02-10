@@ -35,7 +35,7 @@ header span {
 }
 
 .main-title {
-    margin-bottom: 23px;
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 48px;
     /* Стили для заголовка в первой секции */
@@ -90,14 +90,14 @@ select {
     font-size: 16px;
     text-align: left;
     line-height: 19.36px;
-    padding-left: 20px;    
+    padding: 0px 20px;    
     /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
     font-weight: 400;
     font-size: 16px;
-    margin-left: 20px;
+    padding: 0px 20px;
     /* Стили для нумерованного списка во второй секции */
 }
 
@@ -151,14 +151,13 @@ table {
 }
 
 th, td {
-    padding: 10px;
+    padding: 12px 15px; 
     /* Стили для ячеек таблицы */
 }
 
 footer {
     background-color: #A3A7FF;
-    padding-top: 26px;
-    padding-bottom: 27px;
+    padding: 26px 0px;
     /* Стили для футера */
 }
 
